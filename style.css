@@ -1502,7 +1502,19 @@ body {
    * HERO
    */
 
-
+   .contact .contactwrap{
+    background-image: url("./assets/images/hero-banner.jpeg");
+    background-size: cover;
+    border: 1px solid var(--platinum);
+    border-radius: var(--radius-10);
+    padding-top:1%;;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-wrap: wrap;
+  }
  
 
   .sectionhero {
@@ -1695,6 +1707,20 @@ body {
    * HERO
    */
 
+
+   .contact .contactwrap{
+    background-image: url("./assets/images/hero-banner.jpeg");
+    background-size: cover;
+    border: 1px solid var(--platinum);
+    border-radius: var(--radius-10);
+    padding-top:1%;;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-wrap: wrap;
+  }
    .sectionhero {
     background-image: url("./assets/images/gani1.webp");
     background-repeat: no-repeat;
@@ -1969,19 +1995,7 @@ body {
 
 
 
-.contact .contactwrap{
-  background-image: url("./assets/images/hero-banner.jpeg");
-  background-size: cover;
-  border: 1px solid var(--platinum);
-  border-radius: var(--radius-10);
-  padding-top:1%;;
-  width: 80%;
-  height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
-  display: flex; 
-  flex-wrap: wrap;
-}
+
 
 .contactwrap .contactin{
   padding: 20px 30px; 
